@@ -50,6 +50,12 @@
             align-self: center;
         }
 
+        h2 {
+            margin-top: 56px;
+            margin-bottom: 24px;
+            font: 700 24px 'Poppins', sans-serif;
+        }
+
         form {
             input {
                 height: 50px;
@@ -62,9 +68,19 @@
             button {
                 margin-top: 16px;
             }
-
+            
             button, input {
                 width: 100%;
+            }
+        }
+        
+        p {
+            font-size: 14px;
+            color: #737380;
+            margin-top: 16px;
+
+            a {
+                color: #e559f9;
             }
         }
 
@@ -72,13 +88,13 @@
             margin-top: 64px;
             height: 50px;
             border-radius: 8px;
-            background: #ea4335;
-            color: #FFF;
+            background: #f8f8f8;
+            font-weight: 500;
             display: flex;
             justify-content: center;
             align-items: center;
             cursor: pointer;
-            border: 0;
+            border: 1px solid #a8a8b3;
             transition: filter 200ms;
 
             img {
